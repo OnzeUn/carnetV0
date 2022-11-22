@@ -1,0 +1,283 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 70px auto 90px; 
+    font-size: 1em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu-demo2 li:first-child{
+background-color: #65537A;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+}
+#menu-demo2 li:nth-child(2){
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+#menu-demo2 li:nth-child(3){
+background-color: #F6AD1A;
+background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+}
+#menu-demo2 li:nth-child(4){
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+#menu-demo2 li:nth-child(5){
+background-color: #65537A;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+}
+#menu-demo2 li:last-child{
+background-color: #CFFF6A;
+background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+background:#2A2333;
+}
+#menu-demo2 li:nth-child(2) li{
+background:#333A40;
+}
+#menu-demo2 li:nth-child(3) li{
+background:#9F391A;
+}
+#menu-demo2 li:nth-child(4) li{
+background:#9F391A;
+}
+#menu-demo2 li:nth-child(5) li{
+background:#2A2333;
+}
+#menu-demo2 li:last-child li{
+background:#677F35;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:#65537A;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:#729EBF;
+}
+#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:#F6AD1A;
+}
+#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(4) li:hover{
+background:#F6AD1A;
+}
+#menu-demo2 li:nth-child(5):hover, #menu-demo2 li:nth-child(5) li:hover{
+background:#65537A;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:#CFFF6A;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#000;
+}
+
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+div.article {
+    text-align: justify;
+}
+
+
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
