@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T11:14:35.869Z" agent="5.0 (Windows)" etag="i4njc1HlQxbH_vBtpd2g" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T11:28:30.711Z" agent="5.0 (Windows)" etag="OZqIgAUOf7MDd7GWOfW0" version="20.6.2" type="github">
   <diagram id="_ci9421NlBNcdpJC809w" name="Page-1">
-    <mxGraphModel dx="2585" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,7 +175,7 @@
         <mxCell id="_HIprAc11Qmuhk3Kceu7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJl0EIgOyHRKj7NYJLY0-57" target="_HIprAc11Qmuhk3Kceu7-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="Support de formation" lucidchartObjectId="ChN.a.CTA~j_" id="ZJl0EIgOyHRKj7NYJLY0-57">
+        <UserObject label="Description du carnet - Mode d&#39;emploi" lucidchartObjectId="ChN.a.CTA~j_" id="ZJl0EIgOyHRKj7NYJLY0-57">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=9;strokeColor=#3a414a;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;" parent="1" vertex="1">
             <mxGeometry x="990" y="540" width="120" height="90" as="geometry" />
           </mxCell>
@@ -294,7 +294,7 @@
         <mxCell id="_HIprAc11Qmuhk3Kceu7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_HIprAc11Qmuhk3Kceu7-1" target="ZJl0EIgOyHRKj7NYJLY0-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="Mode d&#39;emploi Description du carnet" lucidchartObjectId="X6M.t33oavB." id="_HIprAc11Qmuhk3Kceu7-1">
+        <UserObject label="Support de formation" lucidchartObjectId="X6M.t33oavB." id="_HIprAc11Qmuhk3Kceu7-1">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=9;strokeColor=#3a414a;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;" vertex="1" parent="1">
             <mxGeometry x="1180" y="540" width="120" height="90" as="geometry" />
           </mxCell>
@@ -318,11 +318,24 @@
             <mxGeometry x="1785" y="761.5" width="181" height="45" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="mode d&#39;emploi" lucidchartObjectId="Q5M.YRusNy6M" id="_HIprAc11Qmuhk3Kceu7-14">
+        <UserObject label="Mode d&#39;emploi" lucidchartObjectId="Q5M.YRusNy6M" id="_HIprAc11Qmuhk3Kceu7-14">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=9;strokeColor=#3a414a;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;" vertex="1" parent="1">
             <mxGeometry x="1783" y="820" width="130" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="Bac à sable - Banque d&#39;idée" lucidchartObjectId="X6M.t33oavB." id="_HIprAc11Qmuhk3Kceu7-17">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=9;strokeColor=#3a414a;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;" vertex="1" parent="1">
+            <mxGeometry x="1181" y="655" width="120" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Bac à sable - La banque de mes d&#39;idées et de mes utopies" lucidchartObjectId="X6M.t33oavB." id="_HIprAc11Qmuhk3Kceu7-18">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=9;strokeColor=#3a414a;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;" vertex="1" parent="1">
+            <mxGeometry x="2008" y="770" width="172" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_HIprAc11Qmuhk3Kceu7-19" value="&lt;div&gt;- Utopie 1&lt;/div&gt;&lt;div&gt;- Utopie 2&lt;/div&gt;&lt;div&gt;- Vierge&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="780" width="210" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
